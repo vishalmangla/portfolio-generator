@@ -9,3 +9,6 @@ fs.writeFile('./index.html', generatePage(name,github), err => {
   if (err) throw new Error (err);
   console.log('Portfolio done check index.html');
 });
+
+const inquirer = require('inquirer');
+console.log(inquirer);
